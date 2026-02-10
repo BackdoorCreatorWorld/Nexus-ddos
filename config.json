@@ -1,0 +1,17 @@
+{
+  "framework": "Nexus DDoS Framework",
+  "version": "3.0",
+  "author": "Quantum Security",
+  "default_workers": 100,
+  "timeout": 5,
+  "security": {
+    "user_agent_rotation": true,
+    "ip_spoofing": true,
+    "connection_randomization": true
+  },
+  "attack_methods": {
+    "http_flood": "High-volume HTTP/HTTPS requests",
+    "slowloris": "Connection exhaustion attack",
+    "mixed": "Combined multi-vector attack"
+  }
+}
